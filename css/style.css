@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #abad94;
+	font-family: 'Manrope', sans-serif;
+}
+
+.wrapper{
+	background-color: #e6e8d2;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.header-menu-links li{
+	display: inline;
+	margin: 0 10px;
+}
+
+.header-menu-links a:hover{
+	color: #b85043;
+	transition: .1s;
+}
+
+.header-company-name{
+	margin: 0 30px 0 70px;
+	font-family: 'Russo One', sans-serif;
+	font-size: 1.35em;
+}
+
+.header-menu{
+	flex-grow: 1;
+	display: flex;
+	justify-content: flex-end;
+	font-weight: 500;
+}
+
+.header-inner{
+	display: flex;
+	align-items: center;
+	height: 70px;
+}
+
+.header-inner a{
+	color: black;
+	text-decoration: none;
+}
+
+.header-login-button{
+	margin: 0 70px 0 30px;
+}
+
+.red-button{
+	background-color: #b85043;
+	border: solid 1px #b85043;
+	color: white;
+	border-radius: 20px;
+	padding: 13px 27px;
+	font-size: 14px;
+	font-weight: 700;
+	transition: .2s;
+}
+
+.red-button:hover{
+	background-color: #862d2d;
+	border: solid 1px #862d2d;
+	transition: .2s;
+}
+
+.hollow-button{
+	background-color: #e6e8d2;
+	border: solid 1px;
+	border-radius: 20px;
+	padding: 13px 27px;
+	font-size: 14px;
+	font-weight: 700;
+	transition: .2s;
+}
+
+.hollow-button:hover{
+	color: #b85043;
+	transition: .2s;
+}
+
+.main-body-info{
+	display: flex;
+	margin: 90px 5% 0 5%;
+}
+
+.main-body-info-text{
+	flex-basis: 50%;
+}
+
+.info-text-module{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-right: 2.5%;
+}
+
+.info-img{
+	max-width: 45%;
+	flex-basis: 50%;
+	margin-left: 2.5%;
+}
+
+.info-buttons-panel{
+	display: flex;
+}
+
+.red-text{
+	color: #b85043;
+}
+
+.info-header{
+	font-size: 70px;
+	font-weight: 900;
+	line-height: 1.2;
+}
+
+.info-text{
+	font-size: 26px;
+	font-weight: 500;
+}
+
+.download-button{
+	margin-right: 40px;
+}
