@@ -8,7 +8,7 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
-.main-body {
+.page-block {
   margin: 0 5%;
 }
 
@@ -66,6 +66,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .red-button:hover {
@@ -82,6 +83,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .hollow-button:hover {
@@ -142,7 +144,7 @@ body {
 }
 
 .about-us-features-container {
-  margin-top: 3%;
+  margin-top: 5%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -179,4 +181,42 @@ body {
 
 .about-us-small-text {
   font-weight: 800;
+}
+
+.separator-line{
+	margin-top: 7%;
+	height: 1px;
+	background-color: #919587;
+}
+
+.main-body-goods{
+	margin-top: 4%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.radio-wrapper{
+	margin-top: 40px;
+	min-width: 75%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.radio-label{
+  flex-basis: 7%;
+}
+
+.radio-label label{
+  padding: 7px 14px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+input[type="radio"] {
+  display: none;
 }
