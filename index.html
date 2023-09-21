@@ -1,49 +1,168 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Страница</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Russo+One&display=swap" rel="stylesheet">
-</head>
-<body>
-	<header class="header">
-		<div class="container">
-			<div class="header__inner">
-				<div class="logo">
-					<a class="logo-text" href="#">ПереКусь</a>
-				</div>
-				<nav class="navbar">
-					<ul class="navbar__list">
-						<li class="navbar__item">
-							<a class="navbar__link" href="#">Главная</a>
-						</li>
-						<li class="navbar__item">
-							<a class="navbar__link" href="#">О нас</a>
-						</li>
-						<li class="navbar__item">
-							<a class="navbar__link" href="#">Меню</a>
-						</li>
-						<li class="navbar__item">
-							<a class="navbar__link" href="#">Контакты</a>
-						</li>
-					</ul>
-				</nav>
-				<div class="login">
-					<button class="button button--red" type="button" name="login-button">Войти</button>
-				</div>
-			</div>
-		</div>
-	</header>
-	<section class="info-block">
-		<div class="container">
-			<div class="text-block">
-				<h1 class="text-block__header">Доставим <span class="red-text">снеки </span>прямо к двери!</h1>
-				
-			</div>
-		</div>
-	</section>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Страница</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner inner">
+          <div class="logo">
+            <a class="logo-text link--black" href="#">ПереКусь</a>
+          </div>
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a class="navbar__link link--black" href="#">Главная</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link link--black" href="#">О нас</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link link--black" href="#">Меню</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link link--black" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="login">
+            <button
+              class="button button--red"
+              type="button"
+              name="login-button"
+            >
+              Войти
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="info-block">
+      <div class="container">
+        <div class="info-block__inner inner">
+          <div class="text-block">
+            <h1 class="header-1">
+              Доставим <span class="text-accent">снеки </span>прямо к двери!
+            </h1>
+            <h3 class="text-block__text">
+              Загрузите наше приложение, сделайте заказ, и мы доставим Вам наше
+              мороженое, снеки, напитки и выпечку за ~10 минут
+            </h3>
+            <div class="text-block__buttons-panel">
+              <button
+                class="button download-button button--red"
+                type="button"
+                name="download-button"
+              >
+                Заказать сейчас
+              </button>
+              <button
+                class="button button--hollow"
+                type="button"
+                name="info-button"
+              >
+                Как это работает?
+              </button>
+            </div>
+          </div>
+          <img class="info-block__img" src="images/image1.png" alt="aboba" />
+        </div>
+      </div>
+    </section>
+    <section class="about-company">
+      <div class="container">
+        <div class="about-company__inner inner">
+          <p class="small-text text-accent">ЧТО МЫ ПРЕДЛАГАЕМ</p>
+          <h2 class="header-2">
+            Официальные партнеры доставки Ваших любимых снеков
+          </h2>
+          <div class="features">
+            <div class="features-container">
+              <img
+                class="features-container__pict"
+                src="images/pict1.png"
+                alt="pict1"
+              />
+              <h3 class="features-container__header">Широкий ассортимент</h3>
+              <p class="features-container__text">
+                Мы постоянно добавляем самые необычные и интересные продукты в
+                наш ассортимент
+              </p>
+            </div>
+            <div class="features-container">
+              <img
+                class="features-container__pict"
+                src="images/pict2.png"
+                alt="pict2"
+              />
+              <h3 class="features-container__header">Доставка прямо к двери</h3>
+              <p class="features-container__text">
+                Выберите всё, что захотите, и мы доставим это прямо к двери в
+                любую точку России
+              </p>
+            </div>
+            <div class="features-container">
+              <img
+                class="features-container__pict"
+                src="images/pict3.png"
+                alt="pict3"
+              />
+              <h3 class="features-container__header">Лучше с каждым заказом</h3>
+              <p class="features-container__text">
+                Всегда на страже качества продуктов и доставки, лучшая и
+                вкуснейшая еда для всех
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="separator-line"></div>
+    </div>
+    <section class="goods">
+      <div class="container">
+        <div class="goods__inner inner">
+          <h2 class="header-2">Вы обязаны это попробовать.</h2>
+          <div class="goods-radio">
+            <div class="goods-radio__button">
+              <input id="radio-1" type="radio" name="goods-radio" />
+              <label class="goods-radio__label" for="radio-1"
+                >🍪 Печеньки</label
+              >
+            </div>
+            <div class="goods-radio__button">
+              <input id="radio-2" type="radio" name="goods-radio" />
+              <label class="goods-radio__label" for="radio-2">🥔 Чипсы</label>
+            </div>
+            <div class="goods-radio__button">
+              <input id="radio-3" type="radio" name="goods-radio" />
+              <label class="goods-radio__label" for="radio-3">🥜 Орешки</label>
+            </div>
+            <div class="goods-radio__button">
+              <input id="radio-4" type="radio" name="goods-radio" />
+              <label class="goods-radio__label" for="radio-4">🍟 Снеки</label>
+            </div>
+            <div class="goods-radio__button">
+              <input id="radio-5" type="radio" name="goods-radio" />
+              <label class="goods-radio__label" for="radio-5">🍿 Попкорн</label>
+            </div>
+            <div class="goods-radio__button">
+              <input id="radio-6" type="radio" name="goods-radio" />
+              <label class="goods-radio__label" for="radio-6">🍫 Шоколад</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
