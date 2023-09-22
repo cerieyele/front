@@ -16,6 +16,7 @@ body {
 
 .inner {
   margin: 0 5%;
+  padding: 4% 0;
 }
 
 .header__inner {
@@ -23,6 +24,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 70px;
+  padding: 0 0 4%;
 }
 
 .navbar {
@@ -97,7 +99,7 @@ body {
 
 .info-block__inner {
   display: flex;
-  padding-top: 9%;
+
 }
 
 .info-block__img {
@@ -134,7 +136,6 @@ body {
 }
 
 .about-company__inner {
-  padding: 9% 0 9%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -155,12 +156,14 @@ body {
 }
 
 .header-2 {
-  padding-top: 3%;
   text-align: center;
   font-size: 50px;
   font-weight: 900;
   line-height: 1.2;
   max-width: 70%;
+}
+.about-company__header-2{
+	padding-top: 3%;
 }
 
 .header-3 {
@@ -181,12 +184,11 @@ body {
 }
 
 .separator-line {
-  height: 1px;
-  background-color: #919587;
+  height: 2px;
+  background-color: #abad94;
 }
 
 .goods__inner {
-  padding: 4% 0 9%;
   display: flex;
   flex-direction: column;
   align-items: center;
