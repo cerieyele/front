@@ -12,15 +12,20 @@ body {
   background-color: #e6e8d2;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 4% 5%;
 }
 
 .container--overflow {
   overflow: hidden;
 }
 
-.inner {
-  margin: 0 5%;
-  padding: 4% 0;
+.container--header {
+  padding-top: 0px;
+}
+
+.container--footer {
+  padding-bottom: 0px;
+  background-color: #181818;
 }
 
 .header__inner {
@@ -55,18 +60,17 @@ body {
   font-weight: 500;
 }
 
-.logo-text {
+.logo {
   font-family: "Russo One", sans-serif;
   font-size: 1.35em;
 }
 
-.logo-text__header {
-  margin-right: 30px;
+.link {
+  text-decoration: none;
 }
 
 .link--black {
   color: black;
-  text-decoration: none;
 }
 
 .login {
@@ -359,10 +363,6 @@ input[type="radio"] {
 
 .rating {
   width: 120px;
-}
-
-.container--footer {
-  background-color: #181818;
 }
 
 .footer__inner {
