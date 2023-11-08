@@ -18,23 +18,23 @@
           <div class="logo">
             <a class="link link--black" href="#">ПереКусь</a>
           </div>
-          <nav class="navbar">
-            <ul class="navbar__list">
-              <li class="navbar__item">
-                <a class="navbar__link link--black" href="#">Главная</a>
+          <nav class="header__navbar">
+            <ul class="header__navbar-list">
+              <li class="header__navbar-item">
+                <a class="link link--black" href="#">Главная</a>
               </li>
-              <li class="navbar__item">
-                <a class="navbar__link link--black" href="#">О нас</a>
+              <li class="header__navbar-item">
+                <a class="link link--black" href="#">О нас</a>
               </li>
-              <li class="navbar__item">
-                <a class="navbar__link link--black" href="#">Меню</a>
+              <li class="header__navbar-item">
+                <a class="link link--black" href="#">Меню</a>
               </li>
-              <li class="navbar__item">
-                <a class="navbar__link link--black" href="#">Контакты</a>
+              <li class="header__navbar-item">
+                <a class="link link--black" href="#">Контакты</a>
               </li>
             </ul>
           </nav>
-          <div class="login">
+          <div class="header__actions">
             <button
               class="button button--red button--round"
               type="button"
@@ -47,9 +47,9 @@
       </div>
     </header>
     <main class="content">
-      <section class="info-block">
-        <div class="container">
-          <div class="info-block__inner inner">
+      <section class="section">
+        <div class="container container--border">
+          <div class="inner inner--flex">
             <div class="text-block">
               <h1 class="header-1">
                 Доставим <span class="text-accent">снеки </span>прямо к двери!
@@ -75,13 +75,13 @@
                 </button>
               </div>
             </div>
-            <img class="info-block__img" src="images/image1.png" alt="aboba" />
+            <img class="img" src="images/image1.png" alt="aboba" />
           </div>
         </div>
       </section>
-      <section class="about-company">
-        <div class="container">
-          <div class="about-company__inner inner">
+      <section class="section">
+        <div class="container container--border">
+          <div class="inner inner--column">
             <p class="small-text text-accent">ЧТО МЫ ПРЕДЛАГАЕМ</p>
             <h2 class="header-2 about-company__header-2">
               Официальные партнеры доставки Ваших любимых снеков
@@ -127,114 +127,99 @@
           </div>
         </div>
       </section>
-      <div class="container">
-        <div class="separator-line"></div>
-      </div>
-      <section class="goods">
-        <div class="container">
-          <div class="goods__inner inner">
+      <section class="section">
+        <div class="container container--border">
+          <div class="inner inner--column">
             <h2 class="header-2">Вы обязаны это попробовать.</h2>
-            <div class="goods-radio">
-              <div class="goods-radio__button">
-                <input id="radio-1" type="radio" name="goods-radio" checked />
-                <label class="goods-radio__label" for="radio-1"
-                  >🍪 Печеньки</label
-                >
+            <div class="radio">
+              <div class="radio__button">
+                <input id="radio-1" type="radio" name="radio" checked />
+                <label class="radio__label" for="radio-1">🍪 Печеньки</label>
               </div>
-              <div class="goods-radio__button">
-                <input id="radio-2" type="radio" name="goods-radio" />
-                <label class="goods-radio__label" for="radio-2">🥔 Чипсы</label>
+              <div class="radio__button">
+                <input id="radio-2" type="radio" name="radio" />
+                <label class="radio__label" for="radio-2">🥔 Чипсы</label>
               </div>
-              <div class="goods-radio__button">
-                <input id="radio-3" type="radio" name="goods-radio" />
-                <label class="goods-radio__label" for="radio-3"
-                  >🥜 Орешки</label
-                >
+              <div class="radio__button">
+                <input id="radio-3" type="radio" name="radio" />
+                <label class="radio__label" for="radio-3">🥜 Орешки</label>
               </div>
-              <div class="goods-radio__button">
-                <input id="radio-4" type="radio" name="goods-radio" />
-                <label class="goods-radio__label" for="radio-4">🍟 Снеки</label>
+              <div class="radio__button">
+                <input id="radio-4" type="radio" name="radio" />
+                <label class="radio__label" for="radio-4">🍟 Снеки</label>
               </div>
-              <div class="goods-radio__button">
-                <input id="radio-5" type="radio" name="goods-radio" />
-                <label class="goods-radio__label" for="radio-5"
-                  >🍿 Попкорн</label
-                >
+              <div class="radio__button">
+                <input id="radio-5" type="radio" name="radio" />
+                <label class="radio__label" for="radio-5">🍿 Попкорн</label>
               </div>
-              <div class="goods-radio__button">
-                <input id="radio-6" type="radio" name="goods-radio" />
-                <label class="goods-radio__label" for="radio-6"
-                  >🍫 Шоколад</label
-                >
+              <div class="radio__button">
+                <input id="radio-6" type="radio" name="radio" />
+                <label class="radio__label" for="radio-6">🍫 Шоколад</label>
               </div>
             </div>
-            <div class="goods-showcase">
-              <div class="goods-showcase__item">
-                <div class="goods-showcase__image-container">
+            <div class="showcase">
+              <div class="showcase__item">
+                <div class="showcase__image-container">
                   <img
-                    class="goods-showcase__image"
+                    class="showcase__image"
                     alt=""
                     src="images/product1.png"
                   />
                 </div>
-                <h3 class="header-3 goods-showcase__header">Овсяное печенье</h3>
+                <h3 class="header-3 showcase__header">Овсяное печенье</h3>
                 <button
-                  class="goods-showcase__button button button--red button--round"
+                  class="showcase__button button button--red button--round"
                   type="button"
                   name="download-button"
                 >
                   Заказать сейчас
                 </button>
               </div>
-              <div class="goods-showcase__item">
-                <div class="goods-showcase__image-container">
+              <div class="showcase__item">
+                <div class="showcase__image-container">
                   <img
-                    class="goods-showcase__image"
+                    class="showcase__image"
                     alt=""
                     src="images/product2.png"
                   />
                 </div>
-                <h3 class="header-3 goods-showcase__header">
-                  Заварное печенье
-                </h3>
+                <h3 class="header-3 showcase__header">Заварное печенье</h3>
                 <button
-                  class="goods-showcase__button button button--red button--round"
+                  class="showcase__button button button--red button--round"
                   type="button"
                   name="download-button"
                 >
                   Заказать сейчас
                 </button>
               </div>
-              <div class="goods-showcase__item">
-                <div class="goods-showcase__image-container">
+              <div class="showcase__item">
+                <div class="showcase__image-container">
                   <img
-                    class="goods-showcase__image"
+                    class="showcase__image"
                     alt=""
                     src="images/product3.png"
                   />
                 </div>
-                <h3 class="header-3 goods-showcase__header">
-                  Затяжное печенье
-                </h3>
+                <h3 class="header-3 showcase__header">Затяжное печенье</h3>
                 <button
-                  class="goods-showcase__button button button--red button--round"
+                  class="showcase__button button button--red button--round"
                   type="button"
                   name="download-button"
                 >
                   Заказать сейчас
                 </button>
               </div>
-              <div class="goods-showcase__item">
-                <div class="goods-showcase__image-container">
+              <div class="showcase__item">
+                <div class="showcase__image-container">
                   <img
-                    class="goods-showcase__image"
+                    class="showcase__image"
                     alt=""
                     src="images/product4.png"
                   />
                 </div>
-                <h3 class="header-3 goods-showcase__header">Мини-печенье</h3>
+                <h3 class="header-3 showcase__header">Мини-печенье</h3>
                 <button
-                  class="goods-showcase__button button button--red button--round"
+                  class="showcase__button button button--red button--round"
                   type="button"
                   name="download-button"
                 >
@@ -245,12 +230,9 @@
           </div>
         </div>
       </section>
-      <div class="container">
-        <div class="separator-line"></div>
-      </div>
-      <section class="info-block">
-        <div class="container">
-          <div class="info-block__inner inner">
+      <section class="section">
+        <div class="container container--border">
+          <div class="inner inner--flex">
             <div class="text-block">
               <h1 class="header-1">лучший хруст. лучший вкус. лучший выбор.</h1>
               <h3 class="text-block__text">
@@ -266,15 +248,12 @@
                 </button>
               </div>
             </div>
-            <img class="info-block__img" src="images/image2.png" alt="aboba" />
+            <img class="img" src="images/image2.png" alt="aboba" />
           </div>
         </div>
       </section>
-      <div class="container">
-        <div class="separator-line"></div>
-      </div>
-      <section class="designed-text-block">
-        <div class="container">
+      <section class="section">
+        <div class="container container--border">
           <div class="designed-text-block__inner inner--no-side-margins">
             <div class="designed-text-block__container">
               <p
@@ -294,10 +273,7 @@
           </div>
         </div>
       </section>
-      <div class="container">
-        <div class="separator-line"></div>
-      </div>
-      <section class="reviews-block">
+      <section class="section">
         <div class="container container--overflow">
           <div class="reviews-block__inner inner">
             <img
